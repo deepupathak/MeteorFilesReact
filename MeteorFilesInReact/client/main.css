@@ -1,0 +1,66 @@
+/* CSS declarations go here */
+body {
+	font-family: sans-serif;
+	background-attachment: fixed;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+}
+
+.container {
+	max-width: 100%;
+	margin: 0 auto;
+	min-height: 100%;
+	background: white;
+}
+
+.invisible {
+	display: none !important;
+	visibility: hidden !important;
+}
+
+.preview-circle i {
+	font-size: 20px;
+	line-height: 0px;
+	margin-top: 13px;
+	margin-left: 8px;
+}
+
+.preview-circle img {
+	width: 36px;
+	height: 36px;
+	border-radius: 40px;
+}
+
+.preview-circle > img {
+	animation: newElement 350ms ease-in-out 1;
+}
+
+div#fakeUpload{
+	text-align: center;
+	cursor: pointer;
+	font-size: 4rem;
+	width: 200px;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+	padding: 8px;
+	line-height: 1.42857143;
+	vertical-align: middle; 
+	border-top: 1px solid #ddd;
+	text-align: center;
+}
+
+div.table-container{
+	overflow-x: auto;
+}
+
+// hack to increase size of tooltip
+.tooltip-inner {
+  max-width: 100%;
+}
